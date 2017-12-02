@@ -20,10 +20,10 @@ fn main () {
               sum += current_digit;
             }
           }
-          None => { continue; }
+          None => continue
         }
       },
-      None => { continue; }
+      None => continue
     }
   }
 
